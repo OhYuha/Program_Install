@@ -17,6 +17,7 @@
 2. `main.py`의 1, 2 번 라인에 있는 변수를 프로그램의 맞게 수정합니다.
 3. `main.py`와 `data`가 포함된 폴더에서 cmd를 열고 `pyinstaller --onefile --uac-admin --icon="icon.ico" --add-data "data;data" --hidden-import win32com --hidden-import win32timezone main.py`를 실행합니다.
 
+이 프로그램은 minecraft_modpak_install 에서 포크되었습니다.
 
 이 프로그램은 BSD-3 라이센스로 배포됩니다.
 dev 브렌치는 README.md와 라이센스 등 개발의 필요없는 파일을 제거한 것이며 main 브렌치와 같은 라이센스를 적용합니다 
