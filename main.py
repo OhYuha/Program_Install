@@ -48,6 +48,10 @@ def rp(relative_path):
     except Exception:
         base_path = os.path.abspath(".")
     return os.path.join(base_path, relative_path)
+### 아래 주석을 풀어 사용권 계약 관련 코드를 쓰세요
+# print("""이 프로그램을 설치하신다면 아래의 사용권 계약에 뭐 어쩌고저쩌고하는것을 동의합니다
+# 제 1항
+# 뭐 어쩌꼬쩌쩌꼬""")
 sore = str(rp("data"))
 t1 = input("설치 폴더 입력(기본은 엔터)")
 if t1 == "":
